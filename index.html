@@ -2,21 +2,42 @@
 <head>
 <title>Animaton</title>
 <style>
-body {
+        body {
             background-repeat: no-repeat;
             background-size: 100% 100%;
             background-attachment: fixed;
         }
+
+        .eagle {
+            margin-top: 200px;
+        }
+
+        .run {
+            margin-top: 80px;
+        }
+
+        .dog {
+            margin-right: 80px;
+        }
     </style>
-    </head>
-    <body background="Animation background.jpg">
-     <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-    <marquee behavior="" direction="right" scrollamount="20"><img src="eagle.gif" alt="" width="150px">              </marquee>
-    <br><br><br><br><br><br>
-    <marquee behavior="" direction="right" scrollamount="20">
-        <img src="running dog.gif" alt="" width="150px">                     
-        <img class="boy" src="running boy.gif" alt="" height="200px">
+</head>
+
+<body background="Animation background.jpg">
+
+    <marquee behavior="" direction="right" scrollamount="23" class="eagle">
+
+        <img src="eagle.gif" alt="" width="200px">                                                   
+
     </marquee>
-    
-    </body>
-    </html>
+
+    <marquee behavior="" direction="right" scrollamount="25" class="run">
+
+        <img class="dog" src="running dog.gif" alt="" width="200px" class="dog">
+
+        <img class="boy" src="running boy.gif" alt="" width="250px">
+
+    </marquee>
+
+</body>
+
+</html>
